@@ -1,0 +1,27 @@
+<resources>
+
+    <dimen name="fm_width">302dp</dimen>
+    <dimen name="fm_height">152dp</dimen>
+    <dimen name="fm_digit_margin_left">22dp</dimen>
+    <dimen name="fm_digit_margin_top">30dp</dimen>
+    <dimen name="fm_digit_margin_first_left">14dp</dimen>
+    <dimen name="fm_digit_margin_mhz_left">6dp</dimen>
+    <dimen name="fm_sound_margin_top">24dp</dimen>
+    <dimen name="fm_sound_margin_right">22dp</dimen>
+    <dimen name="fm_btn_size">40dp</dimen>
+    
+    <dimen name="fm_btn_pre_marginleft">16dp</dimen>
+    <dimen name="fm_btn_n_marginleft">6dp</dimen>
+    <dimen name="fm_btn_marginbottom">23dp</dimen>
+    
+    <dimen name="fm_sound_size">107dp</dimen>
+    <dimen name="fm_digit_width">116dp</dimen>
+    <dimen name="fm_digit_height">44dp</dimen>
+    
+        <dimen name="fm_digit_d_width">14.6dp</dimen>
+    <dimen name="fm_digit_d_height">21dp</dimen>
+    <dimen name="fm_digit_dot_width">8dp</dimen>
+    <dimen name="fm_digit_dot_height">21dp</dimen>
+    
+
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources> 
+    <string name="app_name">FM Widget</string>
+    <string name="widget_fm_title">FM</string>
+    <string name="widget_fm_current_frequency">86.7 MHz</string>
+    <string name="widget_fm_current_play">播放</string>
+    <string name="widget_fm_current_pause">暂停</string>
+    <string name="widget_fm_current_fre_change">频道切换</string>
+</resources>

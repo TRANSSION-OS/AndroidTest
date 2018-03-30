@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_view"
+    android:layout_width="@dimen/fm_width"
+    android:layout_height="@dimen/fm_height"
+    android:background="@drawable/fm_bg" >
+
+    <RelativeLayout
+        android:id="@+id/digit_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/fm_digit_margin_left"
+        android:layout_marginTop="@dimen/fm_digit_margin_top" >
+
+        <ImageView
+            android:layout_width="@dimen/fm_digit_width"
+            android:layout_height="@dimen/fm_digit_height"
+            android:background="@drawable/fm_digit_bg" />
+
+        <ImageView
+            android:layout_width="@dimen/fm_digit_width"
+            android:layout_height="@dimen/fm_digit_height"
+            android:background="@drawable/fm_digit_bg_" />
+
+        <ImageView
+            android:id="@+id/v_digit_1"
+            android:layout_width="@dimen/fm_digit_d_width"
+            android:layout_height="@dimen/fm_digit_d_height"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/fm_digit_margin_first_left"
+            android:src="@drawable/fm_0" />
+
+        <ImageView
+            android:id="@+id/v_digit_2"
+            android:layout_width="@dimen/fm_digit_d_width"
+            android:layout_height="@dimen/fm_digit_d_height"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/v_digit_1"
+            android:src="@drawable/fm_0" />
+
+        <ImageView
+            android:id="@+id/v_digit_3"
+            android:layout_width="@dimen/fm_digit_d_width"
+            android:layout_height="@dimen/fm_digit_d_height"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/v_digit_2"
+            android:src="@drawable/fm_0" />
+
+        <ImageView
+            android:id="@+id/v_digit_dot"
+            android:layout_width="@dimen/fm_digit_dot_width"
+            android:layout_height="@dimen/fm_digit_dot_height"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/v_digit_3"
+            android:src="@drawable/fm_dot" />
+
+        <ImageView
+            android:id="@+id/v_digit_4"
+            android:layout_width="@dimen/fm_digit_d_width"
+            android:layout_height="@dimen/fm_digit_d_height"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/v_digit_dot"
+            android:src="@drawable/fm_0" />
+
+        <ImageView
+            android:id="@+id/v_digit_mhz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/fm_digit_margin_mhz_left"
+            android:layout_toEndOf="@id/v_digit_4"
+            android:background="@drawable/fm_mhz" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/digit_layout_rtl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/fm_digit_margin_left"
+        android:layout_marginTop="@dimen/fm_digit_margin_top"
+        android:visibility="gone" >
+
+        <ImageView
+            android:layout_width="@dimen/fm_digit_width"
+            android:layout_height="@dimen/fm_digit_height"
+            android:background="@drawable/fm_digit_bg" />
+
+        <ImageView
+            android:layout_width="@dimen/fm_digit_width"
+            android:layout_height="@dimen/fm_digit_height"
+            android:background="@drawable/fm_digit_bg_" />
+
+        <ImageView
+            android:id="@+id/v_digit_1_rtl"
+            android:layout_width="@dimen/fm_digit_d_width"
+            android:layout_height="@dimen/fm_digit_d_height"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/fm_digit_margin_first_left"
+            android:src="@drawable/fm_0" />
+
+        <ImageView
+            android:id="@+id/v_digit_dot_rtl"
+            android:layout_width="@dimen/fm_digit_dot_width"
+            android:layout_height="@dimen/fm_digit_dot_height"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/v_digit_1_rtl"
+            android:src="@drawable/fm_dot" />
+
+        <ImageView
+            android:id="@+id/v_digit_2_rtl"
+            android:layout_width="@dimen/fm_digit_d_width"
+            android:layout_height="@dimen/fm_digit_d_height"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/v_digit_dot_rtl"
+            android:src="@drawable/fm_0" />
+
+        <ImageView
+            android:id="@+id/v_digit_3_rtl"
+            android:layout_width="@dimen/fm_digit_d_width"
+            android:layout_height="@dimen/fm_digit_d_height"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/v_digit_2_rtl"
+            android:src="@drawable/fm_0" />
+
+        <ImageView
+            android:id="@+id/v_digit_4_rtl"
+            android:layout_width="@dimen/fm_digit_d_width"
+            android:layout_height="@dimen/fm_digit_d_height"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/v_digit_3_rtl"
+            android:src="@drawable/fm_0" />
+
+        <ImageView
+            android:id="@+id/v_digit_mhz_rtl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/fm_digit_margin_mhz_left"
+            android:layout_toEndOf="@id/v_digit_4_rtl"
+            android:background="@drawable/fm_mhz" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/btn_pre"
+        android:layout_width="@dimen/fm_btn_size"
+        android:layout_height="@dimen/fm_btn_size"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/fm_btn_marginbottom"
+        android:layout_marginStart="@dimen/fm_btn_pre_marginleft"
+        android:src="@drawable/fm_pre_selector" />
+
+    <ImageButton
+        android:id="@+id/btn_open"
+        android:layout_width="@dimen/fm_btn_size"
+        android:layout_height="@dimen/fm_btn_size"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/fm_btn_marginbottom"
+        android:layout_marginStart="@dimen/fm_btn_n_marginleft"
+        android:layout_toEndOf="@id/btn_pre"
+        android:background="@drawable/fm_open_selector" />
+
+    <ImageView
+        android:id="@+id/btn_next"
+        android:layout_width="@dimen/fm_btn_size"
+        android:layout_height="@dimen/fm_btn_size"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/fm_btn_marginbottom"
+        android:layout_marginStart="@dimen/fm_btn_n_marginleft"
+        android:layout_toEndOf="@id/btn_open"
+        android:src="@drawable/fm_next_selector" />
+
+    <ImageView
+        android:layout_width="@dimen/fm_sound_size"
+        android:layout_height="@dimen/fm_sound_size"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/fm_sound_margin_right"
+        android:background="@drawable/fm_sound_bg" />
+
+</RelativeLayout>

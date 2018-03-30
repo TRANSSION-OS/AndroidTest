@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FM Widget</string>
+    <string name="widget_fm_title">FM</string>
+    <string name="widget_fm_current_frequency">86.7 MHz</string>
+    <string name="widget_fm_current_play">play</string>
+    <string name="widget_fm_current_pause">pause</string>
+    <string name="widget_fm_current_fre_change">frequency change</string>
+</resources>
